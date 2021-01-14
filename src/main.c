@@ -1,7 +1,8 @@
 #include "PortableGrayMap.h"
 int main(int nargs, char* args[])
 {
-    printf("Hello World");
+    PortableGrayMap * image = (PortableGrayMap *) malloc(sizeof(PortableGrayMap));
+    load_pgm(image, "baboon.pgm");
 }
 
 
